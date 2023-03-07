@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Coaching for Consultants"
+author: Steve Brudz
 date:   2015-08-09
 ---
 Coaching is a powerful technique for helping others to overcome challenges they’re facing. Using it, you can get people unstuck and enable them to move forward and grow. In my role as a consultant, it’s a technique that I use regularly when working with clients.
@@ -95,3 +96,5 @@ For more information on coaching, here are some references:
 * "Behind Closed Doors: Secrets of Great Management" by Johanna Rothman and Esther Derby
 * [Influential Agile Leader class](http://www.influentialagileleader.com/) by Gil Broza and Johanna Rothman
 * [Coaching Beyond the Team](https://coachingbeyondtheteam.com/) workshop by Esther Derby and Don Gray
+
+*Originally published on Medium [here](https://medium.com/defmethod-works/coaching-for-consultants-8940276e9b66).*
