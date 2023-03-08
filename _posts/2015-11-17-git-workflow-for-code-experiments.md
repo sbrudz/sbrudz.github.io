@@ -4,6 +4,9 @@ title:  "A Git workflow for code experiments"
 author: Steve Brudz
 date:   2015-11-17
 ---
+![A fork in the road](/img/fork-in-the-road.webp)
+*Photo by [i_yudai](https://www.flickr.com/photos/y_i/2330044065/)*
+
 Have you ever been developing a feature and hit a fork in the road where there are multiple ways to build it and you’re not sure which one is best? When I hit this point in my work, I like to try a few experiments, to explore a little way down each of the paths to see which one is the most promising.
 
 If you’re not careful, though, these experiments can quickly turn your code into a mess, as experiment 2 may require changes to the same parts of the code as experiment 1. Add in some undos and redos and suddenly neither experiment works and you’re not quite sure how to get back to experiment 1.
