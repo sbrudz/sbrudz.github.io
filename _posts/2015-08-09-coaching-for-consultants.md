@@ -3,6 +3,7 @@ layout: post
 title:  "Coaching for Consultants"
 author: Steve Brudz
 date:   2015-08-09
+description: Coaching is a powerful technique for helping others to overcome challenges they’re facing. Learn 6 steps for effective coaching.
 ---
 Coaching is a powerful technique for helping others to overcome challenges they’re facing. Using it, you can get people unstuck and enable them to move forward and grow. In my role as a consultant, it’s a technique that I use regularly when working with clients.
 

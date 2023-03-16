@@ -3,6 +3,7 @@ layout: post
 title:  "ElectionVR: Mapping the popular vote for U.S. President in VR"
 author: Steve Brudz
 date:   2018-09-05
+description: "ElectionVR is an experiment in using VR to give people a more intuitive and nuanced view of election data.  Learn about how it works, the process of building it, and the challenges of finding reliable data for US elections."
 ---
 ![ElectionVR screenshot](/img/electionvr/electionvr-screenshot.png)
 

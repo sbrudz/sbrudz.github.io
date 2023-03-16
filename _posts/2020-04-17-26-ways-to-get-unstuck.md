@@ -3,6 +3,7 @@ layout: post
 title:  "26 Ways to Get Unstuck in Software Development"
 author: Steve Brudz
 date:   2020-04-17
+description: "Everyone gets stuck sometimes. As a senior engineer and consultant, part of my job is helping others to get unstuck. This article pulls together and shares techniques that I’ve learned over the years for getting unstuck."
 ---
 ![A fly stuck in a spiderweb](/img/stuck-in-web.jpeg)
 *Photo by [zibik](https://unsplash.com/@zibik) on [Unsplash](https://unsplash.com)*

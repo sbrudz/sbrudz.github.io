@@ -3,6 +3,7 @@ layout: post
 title:  "How to choose an open-source library"
 author: Steve Brudz
 date:   2022-05-13
+description: "There are millions of open-source libraries out there. Learn how to choose the best one for your project."
 ---
 ![A person confused by having so many libraries from which to choose](/img/choosing-a-library.png)
 

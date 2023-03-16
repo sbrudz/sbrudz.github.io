@@ -3,6 +3,7 @@ layout: post
 title:  "Building the JustNotSorry MVP"
 author: Steve Brudz
 date:   2016-03-13
+description: "JustNotSorry is a free extension that helps you send more confident emails by warning you when you use words which undermine your message.  Learn about how we built the minimum viable product (MVP)."
 ---
 ![JustNotSorry logo](/img/justnotsorry/justnotsorry-logo.webp)
 
