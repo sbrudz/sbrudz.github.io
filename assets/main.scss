@@ -4,13 +4,89 @@
 
 @import "minima";
 
+$dark-color: #383422;
+$mid-color: #EACCA0;
+$light-color: #FDFDF1;
+
+body {
+  color: $dark-color;
+  background-color: $light-color;
+}
+
+figure {
+  border: 1px solid $mid-color;
+  a {
+    border-bottom: none;
+  }
+  a:hover {
+    background-color: $light-color;
+  }
+}
+
+a {
+  color: $dark-color;
+  &:visited {
+    color: $dark-color;
+  }
+  border-bottom: 2px solid $mid-color;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    border-bottom: 2px solid $dark-color;
+    text-decoration: none;
+    background-color: $mid-color;
+  }
+}
+
 .page-content {
   padding-top: 0;
 }
 
+.site-header {
+  border: none;
+
+  .wrapper {
+    border-bottom: 1px solid $dark-color;
+    max-width: 1024px;
+  }
+}
+
+.site-footer {
+  border: none;
+}
+
+header {
+  text-align: center;
+
+  .logo {
+    @media screen and (min-width: 40em) {
+      font-size: 3rem;
+      margin-top: 5.25rem;
+    }
+    font-size: 2rem;
+    margin-top: 3.75rem;
+    a {
+      border-bottom: none;
+      background-color: $light-color;
+    }
+  }
+
+  .tagline {
+    @media screen and (min-width: 40em) {
+      font-size: 1.5rem;
+    }
+    font-size: 1.125rem;
+    margin-bottom: 2.625rem;
+    a {
+      border-bottom: none;
+      background-color: $light-color;
+    }
+  }
+}
+
 .post-previews {
   article {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid $dark-color;
     padding-bottom: 2.625rem;
 
     h2 {
@@ -23,7 +99,8 @@
         transition: all 0.3s ease-out;
 
         &:hover {
-          border-bottom: 2px solid;
+          border-bottom: 2px solid $mid-color;
+          background-color: $light-color;
           text-decoration: none;
         }
       }
@@ -55,6 +132,12 @@
   }
 }
 
+article.post {
+  h1 {
+    margin-top: 2.625rem;
+  }
+}
+
 footer {
   ul {
     display: flex;
@@ -65,17 +148,18 @@ footer {
   }
 
   a {
-    color: black;
-    border-bottom: 1px solid transparent;
+    color: $dark-color;
+    border-bottom: 2px solid transparent;
     transition: all 0.3s ease-out;
 
     &:hover {
-      border-bottom: 1px solid;
+      background-color: $light-color;
+      border-bottom: 2px solid $mid-color;
       text-decoration: none;
     }
 
     &:visited {
-      color: black;
+      color: $dark-color;
     }
   }
 }
