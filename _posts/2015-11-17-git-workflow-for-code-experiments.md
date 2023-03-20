@@ -4,6 +4,7 @@ title:  "A Git workflow for code experiments"
 author: Steve Brudz
 date:   2015-11-17
 description: "Have you ever been developing a feature and hit a fork in the road where there are multiple ways to build it and you’re not sure which one is best?  Here's a git-based workflow that I use to help choose the best path."
+image: /img/fork-in-the-road.webp
 ---
 ![A fork in the road](/img/fork-in-the-road.webp)
 *Photo by [i_yudai](https://www.flickr.com/photos/y_i/2330044065/)*
