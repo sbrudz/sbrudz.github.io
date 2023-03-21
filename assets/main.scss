@@ -59,27 +59,39 @@ header {
   text-align: center;
 
   .logo {
-    @media screen and (min-width: 40em) {
-      font-size: 3rem;
-      margin-top: 5.25rem;
-    }
     font-size: 2rem;
-    margin-top: 3.75rem;
+    margin-top: 2rem;
     a {
+      display: block;
       border-bottom: none;
       background-color: $light-color;
+    }
+    img {
+      border: 1px solid $mid-color;
+      border-radius: 10rem;
+      max-height: 5rem;
+      box-shadow: 0.1rem 0.1rem 0.2rem $dark-color;
+    }
+
+    @media screen and (min-width: 40em) {
+      font-size: 3rem;
+      margin-top: 2.625rem;
+      img {
+        max-height: 8rem;
+      }
     }
   }
 
   .tagline {
-    @media screen and (min-width: 40em) {
-      font-size: 1.5rem;
-    }
     font-size: 1.125rem;
-    margin-bottom: 2.625rem;
+    margin-bottom: 2rem;
     a {
       border-bottom: none;
       background-color: $light-color;
+    }
+    @media screen and (min-width: 40em) {
+      font-size: 1.5rem;
+      margin-bottom: 2.625rem;
     }
   }
 }
@@ -127,6 +139,10 @@ header {
         width: 100%;
         height: 250px;
         object-fit: cover;
+      }
+
+      a:hover {
+        border-bottom: none;
       }
     }
   }

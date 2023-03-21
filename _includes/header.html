@@ -1,9 +1,10 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="logo">
+      <a rel="author" href="{{ "/" | relative_url }}">
+        <img src="/img/steve_full.jpg" alt="Cartoon rendering of Steve by Jeff Newman">
+      </a>
       <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     </div>
     <div class="tagline">
