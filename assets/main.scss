@@ -7,6 +7,7 @@
 $dark-color: #383422;
 $mid-color: #EACCA0;
 $light-color: #FDFDF1;
+$dark-color-softened: rgba($dark-color, 0.4);
 
 body {
   color: $dark-color;
@@ -117,7 +118,7 @@ header {
 
 .post-previews {
   article {
-    border-bottom: 1px solid $dark-color;
+    border-bottom: 1px solid $dark-color-softened;
     padding-bottom: 2.625rem;
 
     h2 {
