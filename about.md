@@ -8,4 +8,4 @@ Steve Brudz is an engineer, writer, and artist.  He currently works as a softwar
 Inspired by John Scalzi's call to [bring back the artisan web](https://whatever.scalzi.com/2022/11/25/how-to-weave-the-artisan-web/), this site is a home for Steve's writing and experiments.
 
 ## Colophon
-The drawing of Steve is by [Jeff Newman](https://www.instagram.com/newmanpictures/). Hosting is provided by GitHub Pages. The site does not use Google Analytics (or any other analytics).
+Hosting is provided by GitHub Pages. The site does not use Google Analytics (or any other analytics).
