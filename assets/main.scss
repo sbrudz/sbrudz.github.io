@@ -17,6 +17,12 @@ body {
 
 p {
   font-weight: 400;
+  text-align: justify;
+}
+
+hr {
+  background-color: $dark-color-softened;
+  margin-bottom: 15px;
 }
 
 b {
