@@ -32,6 +32,9 @@ layout: default
             </a>
           </figure>
         {%- endif -%}
+        {%- if post.youtubeId -%}
+          {% include youtubePlayer.html id=post.youtubeId %}
+        {%- endif -%}
       </article>
     {%- endfor -%}
 
