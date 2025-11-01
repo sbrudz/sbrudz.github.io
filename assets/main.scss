@@ -229,3 +229,7 @@ footer {
   height: 100%;
   border: 0;
 }
+
+.embed-container + p {
+  margin-top: 0.8rem;
+}
